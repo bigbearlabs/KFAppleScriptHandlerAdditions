@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char KFAppleScriptHandlerAdditionsVersionString
 
 // In this header, you should import all the public headers of your framework using statements like #import <KFAppleScriptHandlerAdditions/PublicHeader.h>
 
-#import <KFAppleScriptHandlerAdditions/KFAppleScriptHandlerAdditionsCore.h>
+#import <KFAppleScriptHandlerAdditionsFramework/KFAppleScriptHandlerAdditionsCore.h>

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import <KFAppleScriptHandlerAdditions/KFAppleScriptHandlerAdditions.h>
+#import <KFAppleScriptHandlerAdditionsFramework/KFAppleScriptHandlerAdditions.h>
 
 @interface AppDelegate ()
 
