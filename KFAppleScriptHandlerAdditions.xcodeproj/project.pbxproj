@@ -163,8 +163,8 @@
 				51080B6C1D36651800C22E0F /* Info.plist */,
 			);
 			name = KFAppleScriptHandlerAdditions;
-			path = /Shared/Users/ilo/dev/src/public/KFAppleScriptHandlerAdditions_rebuild/KFAppleScriptHandlerAdditionsFramework;
-			sourceTree = "<absolute>";
+			path = KFAppleScriptHandlerAdditionsFramework;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
