@@ -17,7 +17,7 @@
                BlueprintIdentifier = "51080B671D36651800C22E0F"
                BuildableName = "KFAppleScriptHandlerAdditionsFramework.framework"
                BlueprintName = "KFAppleScriptHandlerAdditionsFramework"
-               ReferencedContainer = "container:../../../../../../../Network/Servers/tunip.local/Shared/Users/ilo/dev/src/public/KFAppleScriptHandlerAdditions_rebuild/KFAppleScriptHandlerAdditions.xcodeproj">
+               ReferencedContainer = "container:KFAppleScriptHandlerAdditions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "51080B671D36651800C22E0F"
             BuildableName = "KFAppleScriptHandlerAdditionsFramework.framework"
             BlueprintName = "KFAppleScriptHandlerAdditionsFramework"
-            ReferencedContainer = "container:../../../../../../../Network/Servers/tunip.local/Shared/Users/ilo/dev/src/public/KFAppleScriptHandlerAdditions_rebuild/KFAppleScriptHandlerAdditions.xcodeproj">
+            ReferencedContainer = "container:KFAppleScriptHandlerAdditions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "51080B671D36651800C22E0F"
             BuildableName = "KFAppleScriptHandlerAdditionsFramework.framework"
             BlueprintName = "KFAppleScriptHandlerAdditionsFramework"
-            ReferencedContainer = "container:../../../../../../../Network/Servers/tunip.local/Shared/Users/ilo/dev/src/public/KFAppleScriptHandlerAdditions_rebuild/KFAppleScriptHandlerAdditions.xcodeproj">
+            ReferencedContainer = "container:KFAppleScriptHandlerAdditions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
