@@ -20,8 +20,8 @@
 		51080B7F1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 51080B7B1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.m */; };
 		51080B801D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.h in Headers */ = {isa = PBXBuildFile; fileRef = 51080B7C1D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.h */; };
 		51080B811D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51080B7D1D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.m */; };
-		51080B821D36669800C22E0F /* KFAppleScriptHandlerAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditions.framework */; };
-		51080B831D36669800C22E0F /* KFAppleScriptHandlerAdditions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		51080B821D36669800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */; };
+		51080B831D36669800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				51080B831D36669800C22E0F /* KFAppleScriptHandlerAdditions.framework in Embed Frameworks */,
+				51080B831D36669800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		51080B181D364F3200C22E0F /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51080B181D364F3200C22E0F /* KFAppleScriptHandlerAdditions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFAppleScriptHandlerAdditions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51080B1B1D364F3200C22E0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51080B1C1D364F3200C22E0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		51080B1F1D364F3200C22E0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		51080B3C1D36509D00C22E0F /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = version.plist; sourceTree = "<group>"; };
 		51080B461D3654C900C22E0F /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 		51080B471D3654C900C22E0F /* test.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.scpt; sourceTree = "<group>"; };
-		51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFAppleScriptHandlerAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFAppleScriptHandlerAdditionsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51080B6A1D36651800C22E0F /* KFAppleScriptHandlerAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAppleScriptHandlerAdditions.h; sourceTree = "<group>"; };
 		51080B6C1D36651800C22E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51080B7A1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFAppleScriptHandlerAdditionsCore.h; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51080B821D36669800C22E0F /* KFAppleScriptHandlerAdditions.framework in Frameworks */,
+				51080B821D36669800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +107,8 @@
 		51080B191D364F3200C22E0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51080B181D364F3200C22E0F /* ExampleApp.app */,
-				51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditions.framework */,
+				51080B181D364F3200C22E0F /* KFAppleScriptHandlerAdditions.app */,
+				51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,9 +182,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		51080B171D364F3200C22E0F /* ExampleApp */ = {
+		51080B171D364F3200C22E0F /* KFAppleScriptHandlerAdditions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51080B291D364F3200C22E0F /* Build configuration list for PBXNativeTarget "ExampleApp" */;
+			buildConfigurationList = 51080B291D364F3200C22E0F /* Build configuration list for PBXNativeTarget "KFAppleScriptHandlerAdditions" */;
 			buildPhases = (
 				51080B141D364F3200C22E0F /* Sources */,
 				51080B151D364F3200C22E0F /* Frameworks */,
@@ -196,14 +196,14 @@
 			dependencies = (
 				51080B851D36669800C22E0F /* PBXTargetDependency */,
 			);
-			name = ExampleApp;
+			name = KFAppleScriptHandlerAdditions;
 			productName = KFAppleScriptHandlerAdditions;
-			productReference = 51080B181D364F3200C22E0F /* ExampleApp.app */;
+			productReference = 51080B181D364F3200C22E0F /* KFAppleScriptHandlerAdditions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		51080B671D36651800C22E0F /* KFAppleScriptHandlerAdditions */ = {
+		51080B671D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51080B711D36651800C22E0F /* Build configuration list for PBXNativeTarget "KFAppleScriptHandlerAdditions" */;
+			buildConfigurationList = 51080B711D36651800C22E0F /* Build configuration list for PBXNativeTarget "KFAppleScriptHandlerAdditionsFramework" */;
 			buildPhases = (
 				51080B631D36651800C22E0F /* Sources */,
 				51080B641D36651800C22E0F /* Frameworks */,
@@ -214,9 +214,9 @@
 			);
 			dependencies = (
 			);
-			name = KFAppleScriptHandlerAdditions;
+			name = KFAppleScriptHandlerAdditionsFramework;
 			productName = KFAppleScriptHandlerAdditions;
-			productReference = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditions.framework */;
+			productReference = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -250,8 +250,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51080B671D36651800C22E0F /* KFAppleScriptHandlerAdditions */,
-				51080B171D364F3200C22E0F /* ExampleApp */,
+				51080B671D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework */,
+				51080B171D364F3200C22E0F /* KFAppleScriptHandlerAdditions */,
 			);
 		};
 /* End PBXProject section */
@@ -303,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		51080B851D36669800C22E0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 51080B671D36651800C22E0F /* KFAppleScriptHandlerAdditions */;
+			target = 51080B671D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework */;
 			targetProxy = 51080B841D36669800C22E0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -497,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51080B291D364F3200C22E0F /* Build configuration list for PBXNativeTarget "ExampleApp" */ = {
+		51080B291D364F3200C22E0F /* Build configuration list for PBXNativeTarget "KFAppleScriptHandlerAdditions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51080B2A1D364F3200C22E0F /* Debug */,
@@ -506,13 +506,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51080B711D36651800C22E0F /* Build configuration list for PBXNativeTarget "KFAppleScriptHandlerAdditions" */ = {
+		51080B711D36651800C22E0F /* Build configuration list for PBXNativeTarget "KFAppleScriptHandlerAdditionsFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51080B721D36651800C22E0F /* Debug */,
 				51080B731D36651800C22E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

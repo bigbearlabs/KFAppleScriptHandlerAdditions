@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51080B671D36651800C22E0F"
-               BuildableName = "KFAppleScriptHandlerAdditions.framework"
-               BlueprintName = "KFAppleScriptHandlerAdditions"
+               BuildableName = "KFAppleScriptHandlerAdditionsFramework.framework"
+               BlueprintName = "KFAppleScriptHandlerAdditionsFramework"
                ReferencedContainer = "container:../../../../../../../Network/Servers/tunip.local/Shared/Users/ilo/dev/src/public/KFAppleScriptHandlerAdditions_rebuild/KFAppleScriptHandlerAdditions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51080B671D36651800C22E0F"
-            BuildableName = "KFAppleScriptHandlerAdditions.framework"
-            BlueprintName = "KFAppleScriptHandlerAdditions"
+            BuildableName = "KFAppleScriptHandlerAdditionsFramework.framework"
+            BlueprintName = "KFAppleScriptHandlerAdditionsFramework"
             ReferencedContainer = "container:../../../../../../../Network/Servers/tunip.local/Shared/Users/ilo/dev/src/public/KFAppleScriptHandlerAdditions_rebuild/KFAppleScriptHandlerAdditions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51080B671D36651800C22E0F"
-            BuildableName = "KFAppleScriptHandlerAdditions.framework"
-            BlueprintName = "KFAppleScriptHandlerAdditions"
+            BuildableName = "KFAppleScriptHandlerAdditionsFramework.framework"
+            BlueprintName = "KFAppleScriptHandlerAdditionsFramework"
             ReferencedContainer = "container:../../../../../../../Network/Servers/tunip.local/Shared/Users/ilo/dev/src/public/KFAppleScriptHandlerAdditions_rebuild/KFAppleScriptHandlerAdditions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
