@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import <KFAppleScriptHandlerAdditions/KFAppleScriptHandlerAdditions.h>
+
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
@@ -16,11 +18,22 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  // Insert code here to initialize your application
+  [self pocExecuteScript];
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-  // Insert code here to tear down your application
+
+-(void) pocExecuteScript {
+
+  id url = [[NSBundle mainBundle] URLForResource:@"test" withExtension:@"scpt"];
+  id err;
+  NSAppleScript* script = [[NSAppleScript alloc] initWithContentsOfURL:url error:&err];
+  
+  
+  id retVal = [script executeHandler:@"doit" withParameter:@"myParam"];
+  
+  
+  NSLog(@"retVal: %@", retVal);
 }
+
 
 @end

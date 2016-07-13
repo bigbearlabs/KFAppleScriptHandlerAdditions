@@ -61,10 +61,7 @@ NSString *KFASException = @"KFASException";
     
     // execute
     resultDesc = [self executeAppleEvent:event error:errorInfo];
-    
-    // cleanup
-    [event release];
-    
+  
     return(resultDesc);
 }
 

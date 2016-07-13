@@ -215,9 +215,10 @@
     CFAbsoluteTime absTime;
     
     UCConvertLongDateTimeToCFAbsoluteTime([desc longDateTimeValue], &absTime);
-    resultDate = (NSDate *)CFDateCreate(NULL, absTime);
-    [resultDate autorelease];
-
+    CFDateRef cfDate = CFDateCreate(NULL, absTime);
+    resultDate = (NSDate *)CFBridgingRelease(cfDate);
+    CFRelease(cfDate);
+  
     return resultDate;
 }
 

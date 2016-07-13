@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KFAppleScriptHandlerAdditions 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>KFAppleScriptHandlerAdditions.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>51080B171D364F3200C22E0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>51080B4E1D36618200C22E0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>51080B671D36651800C22E0F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
