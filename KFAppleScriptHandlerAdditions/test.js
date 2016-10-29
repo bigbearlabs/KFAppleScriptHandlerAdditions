@@ -1,3 +1,7 @@
-function doit(p) {
-	return p
+// function createWindow() {
+//   return "createWindow!!"
+// }
+
+function open_url_in_space(p) {
+  return "openUrlInSpace!!"
 }

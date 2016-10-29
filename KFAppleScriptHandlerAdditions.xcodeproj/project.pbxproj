@@ -13,7 +13,6 @@
 		51080B251D364F3200C22E0F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51080B231D364F3200C22E0F /* MainMenu.xib */; };
 		51080B481D3654C900C22E0F /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 51080B461D3654C900C22E0F /* test.js */; };
 		51080B491D3654C900C22E0F /* test.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 51080B471D3654C900C22E0F /* test.scpt */; };
-		51080B611D36620100C22E0F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51080B261D364F3200C22E0F /* Info.plist */; };
 		51080B6B1D36651800C22E0F /* KFAppleScriptHandlerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 51080B6A1D36651800C22E0F /* KFAppleScriptHandlerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51080B781D36656C00C22E0F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51080B6C1D36651800C22E0F /* Info.plist */; };
 		51080B7E1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 51080B7A1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -225,7 +224,7 @@
 		51080B101D364F3200C22E0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Big Bear Labs";
 				TargetAttributes = {
 					51080B171D364F3200C22E0F = {
@@ -233,6 +232,7 @@
 					};
 					51080B671D36651800C22E0F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -264,7 +264,6 @@
 				51080B481D3654C900C22E0F /* test.js in Resources */,
 				51080B491D3654C900C22E0F /* test.scpt in Resources */,
 				51080B221D364F3200C22E0F /* Assets.xcassets in Resources */,
-				51080B611D36620100C22E0F /* Info.plist in Resources */,
 				51080B251D364F3200C22E0F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -350,8 +350,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -383,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -393,8 +396,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -457,6 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigbearlabs.KFAppleScriptHandlerAdditions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -478,6 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigbearlabs.KFAppleScriptHandlerAdditions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
