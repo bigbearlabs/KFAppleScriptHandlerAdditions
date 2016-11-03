@@ -12,7 +12,6 @@
 		51080B221D364F3200C22E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51080B211D364F3200C22E0F /* Assets.xcassets */; };
 		51080B251D364F3200C22E0F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51080B231D364F3200C22E0F /* MainMenu.xib */; };
 		51080B481D3654C900C22E0F /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 51080B461D3654C900C22E0F /* test.js */; };
-		51080B491D3654C900C22E0F /* test.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 51080B471D3654C900C22E0F /* test.scpt */; };
 		51080B6B1D36651800C22E0F /* KFAppleScriptHandlerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 51080B6A1D36651800C22E0F /* KFAppleScriptHandlerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51080B781D36656C00C22E0F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51080B6C1D36651800C22E0F /* Info.plist */; };
 		51080B7E1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 51080B7A1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,6 +20,7 @@
 		51080B811D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51080B7D1D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.m */; };
 		51080B821D36669800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */; };
 		51080B831D36669800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		51D53AFD1DCB124500079955 /* test.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 51080B471D3654C900C22E0F /* test.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51080B481D3654C900C22E0F /* test.js in Resources */,
-				51080B491D3654C900C22E0F /* test.scpt in Resources */,
+				51D53AFD1DCB124500079955 /* test.scpt in Resources */,
 				51080B221D364F3200C22E0F /* Assets.xcassets in Resources */,
 				51080B251D364F3200C22E0F /* MainMenu.xib in Resources */,
 			);
@@ -449,6 +449,7 @@
 		51080B721D36651800C22E0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -471,6 +472,7 @@
 		51080B731D36651800C22E0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

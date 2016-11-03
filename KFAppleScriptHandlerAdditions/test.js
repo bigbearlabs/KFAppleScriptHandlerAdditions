@@ -3,5 +3,5 @@
 // }
 
 function open_url_in_space(p) {
-  return "openUrlInSpace!!"
+  return "openUrlInSpace!!: param: " + p
 }
