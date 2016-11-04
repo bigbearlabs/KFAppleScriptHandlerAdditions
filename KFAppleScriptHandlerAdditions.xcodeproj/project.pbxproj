@@ -21,6 +21,15 @@
 		51080B821D36669800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */; };
 		51080B831D36669800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		51D53AFD1DCB124500079955 /* test.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 51080B471D3654C900C22E0F /* test.scpt */; };
+		51D53B111DCB150600079955 /* iTunesController.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 51080B381D36509D00C22E0F /* iTunesController.scpt */; };
+		51D53B131DCB150600079955 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51080B3B1D36509D00C22E0F /* MyWindowController.m */; };
+		51D53B141DCB150A00079955 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 51080B351D36509D00C22E0F /* MainMenu.nib */; };
+		51D53B151DCB150D00079955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51080B331D36509D00C22E0F /* InfoPlist.strings */; };
+		51D53B161DCB151000079955 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51080B3C1D36509D00C22E0F /* version.plist */; };
+		51D53B171DCB151700079955 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51080B371D36509D00C22E0F /* Info.plist */; };
+		51D53B181DCB15F400079955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D53B041DCB14EE00079955 /* AppDelegate.swift */; };
+		51D53B951DCB6AEA00079955 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 51080B461D3654C900C22E0F /* test.js */; };
+		51D53B961DCB6AEA00079955 /* test.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 51080B471D3654C900C22E0F /* test.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +81,12 @@
 		51080B7B1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFAppleScriptHandlerAdditionsCore.m; sourceTree = "<group>"; };
 		51080B7C1D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KFASHandlerAdditions-TypeTranslation.h"; sourceTree = "<group>"; };
 		51080B7D1D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KFASHandlerAdditions-TypeTranslation.m"; sourceTree = "<group>"; };
+		51D53B021DCB14EE00079955 /* KFAppleScriptHandlerAdditionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFAppleScriptHandlerAdditionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D53B041DCB14EE00079955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51D53B061DCB14EE00079955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51D53B081DCB14EE00079955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51D53B0B1DCB14EE00079955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51D53B0D1DCB14EE00079955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51D53AFF1DCB14EE00079955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,6 +121,7 @@
 				51080B1A1D364F3200C22E0F /* ExampleApp */,
 				51080B691D36651800C22E0F /* KFAppleScriptHandlerAdditions */,
 				51080B321D36509D00C22E0F /* Demo App */,
+				51D53B031DCB14EE00079955 /* KFAppleScriptHandlerAdditionsDemo */,
 				51080B191D364F3200C22E0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +131,7 @@
 			children = (
 				51080B181D364F3200C22E0F /* KFAppleScriptHandlerAdditions.app */,
 				51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */,
+				51D53B021DCB14EE00079955 /* KFAppleScriptHandlerAdditionsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,6 +189,18 @@
 			path = KFAppleScriptHandlerAdditionsFramework;
 			sourceTree = "<group>";
 		};
+		51D53B031DCB14EE00079955 /* KFAppleScriptHandlerAdditionsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				51D53B041DCB14EE00079955 /* AppDelegate.swift */,
+				51D53B061DCB14EE00079955 /* ViewController.swift */,
+				51D53B081DCB14EE00079955 /* Assets.xcassets */,
+				51D53B0A1DCB14EE00079955 /* Main.storyboard */,
+				51D53B0D1DCB14EE00079955 /* Info.plist */,
+			);
+			path = KFAppleScriptHandlerAdditionsDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -218,12 +254,30 @@
 			productReference = 51080B681D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		51D53B011DCB14EE00079955 /* KFAppleScriptHandlerAdditionsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D53B101DCB14EE00079955 /* Build configuration list for PBXNativeTarget "KFAppleScriptHandlerAdditionsDemo" */;
+			buildPhases = (
+				51D53AFE1DCB14EE00079955 /* Sources */,
+				51D53AFF1DCB14EE00079955 /* Frameworks */,
+				51D53B001DCB14EE00079955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFAppleScriptHandlerAdditionsDemo;
+			productName = KFAppleScriptHandlerAdditionsDemo;
+			productReference = 51D53B021DCB14EE00079955 /* KFAppleScriptHandlerAdditionsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		51080B101D364F3200C22E0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Big Bear Labs";
 				TargetAttributes = {
@@ -233,6 +287,9 @@
 					51080B671D36651800C22E0F = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0800;
+					};
+					51D53B011DCB14EE00079955 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -252,6 +309,7 @@
 			targets = (
 				51080B671D36651800C22E0F /* KFAppleScriptHandlerAdditionsFramework */,
 				51080B171D364F3200C22E0F /* KFAppleScriptHandlerAdditions */,
+				51D53B011DCB14EE00079955 /* KFAppleScriptHandlerAdditionsDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -276,6 +334,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51D53B001DCB14EE00079955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D53B961DCB6AEA00079955 /* test.scpt in Resources */,
+				51D53B951DCB6AEA00079955 /* test.js in Resources */,
+				51D53B111DCB150600079955 /* iTunesController.scpt in Resources */,
+				51D53B141DCB150A00079955 /* MainMenu.nib in Resources */,
+				51D53B151DCB150D00079955 /* InfoPlist.strings in Resources */,
+				51D53B161DCB151000079955 /* version.plist in Resources */,
+				51D53B171DCB151700079955 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -294,6 +366,15 @@
 			files = (
 				51080B7F1D36668B00C22E0F /* KFAppleScriptHandlerAdditionsCore.m in Sources */,
 				51080B811D36668B00C22E0F /* KFASHandlerAdditions-TypeTranslation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D53AFE1DCB14EE00079955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D53B181DCB15F400079955 /* AppDelegate.swift in Sources */,
+				51D53B131DCB150600079955 /* MyWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +411,14 @@
 				51080B361D36509D00C22E0F /* English */,
 			);
 			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		51D53B0A1DCB14EE00079955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51D53B0B1DCB14EE00079955 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -492,6 +581,35 @@
 			};
 			name = Release;
 		};
+		51D53B0E1DCB14EE00079955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KFAppleScriptHandlerAdditionsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigbearlabs.KFAppleScriptHandlerAdditionsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51D53B0F1DCB14EE00079955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KFAppleScriptHandlerAdditionsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigbearlabs.KFAppleScriptHandlerAdditionsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -521,6 +639,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		51D53B101DCB14EE00079955 /* Build configuration list for PBXNativeTarget "KFAppleScriptHandlerAdditionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D53B0E1DCB14EE00079955 /* Debug */,
+				51D53B0F1DCB14EE00079955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

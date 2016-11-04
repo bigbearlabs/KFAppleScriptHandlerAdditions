@@ -30,7 +30,7 @@
   NSAppleScript* script = [[NSAppleScript alloc] initWithContentsOfURL:url error:&err];
   
   
-  id retVal = [script executeHandler:@"open_url_in_space" withParameter:@"myParam"];
+  id retVal = [script executeHandler:@"open_url_in_space" withParametersFromArray:@[@[ @"a", @"b" ]]];
   
   
   NSLog(@"retVal: %@", retVal);

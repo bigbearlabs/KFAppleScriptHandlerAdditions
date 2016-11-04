@@ -38,9 +38,9 @@
 
 - (void)dealloc
 {
-    [iTunesControllerScpt release];
+//    [iTunesControllerScpt release];
     [self setCachedPlaylistNames:nil];
-    [super dealloc];
+//    [super dealloc];
 }
 
 - (void)awakeFromNib
@@ -92,8 +92,9 @@
 
 - (void)setCachedPlaylistNames:(NSArray *)playlistNames
 {
-    [cachedPlaylistNames autorelease];
-    cachedPlaylistNames = [playlistNames retain];
+//    [cachedPlaylistNames autorelease];
+//    cachedPlaylistNames = [playlistNames retain];
+  cachedPlaylistNames = playlistNames;
 }
 
 @end

@@ -2,6 +2,6 @@
 //   return "createWindow!!"
 // }
 
-function open_url_in_space(p) {
-  return "openUrlInSpace!!: param: " + p
+function open_url_in_space(p, p2) {
+  return "openUrlInSpace!!: param: " + p + p2
 }
