@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DDFCBA1AF6150EF6B3D27640EEDF73890F3DE421",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6C71DF8D4EAED84A4BB92018D54642F26E11361D" : 9223372036854775807,
+    "DDFCBA1AF6150EF6B3D27640EEDF73890F3DE421" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "80D197BF-D8AE-4AD7-8313-A39B52B3F900",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6C71DF8D4EAED84A4BB92018D54642F26E11361D" : "..",
+    "DDFCBA1AF6150EF6B3D27640EEDF73890F3DE421" : "KFAppleScriptHandlerAdditions\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KFAppleScriptHandlerAdditions",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KFAppleScriptHandlerAdditions.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:bigbearlabs\/contexter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C71DF8D4EAED84A4BB92018D54642F26E11361D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bigbearlabs\/KFAppleScriptHandlerAdditions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDFCBA1AF6150EF6B3D27640EEDF73890F3DE421"
+    }
+  ]
+}
